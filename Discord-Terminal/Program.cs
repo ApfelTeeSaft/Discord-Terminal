@@ -13,6 +13,7 @@ class Program
     private static async Task Main(string[] args)
     {
         // Ask the user for the bot token
+        Console.Title = "Made with ❤️ by apfelteesaft";
         Console.Write("Enter your bot's token: ");
         string token = Console.ReadLine();
 
